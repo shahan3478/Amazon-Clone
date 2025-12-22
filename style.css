@@ -1,0 +1,358 @@
+*{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+     box-sizing: border-box;
+
+}
+.navbar{
+    height: 60px;
+   background-color:  #0F1111;
+   color: white;
+   
+   
+}
+.nav-logo{
+    height: 50px;
+    width: 100px;
+}
+.logo1{
+    height: 50px;
+    width: 100%;
+    background-size: cover;
+    position: relative;
+    bottom: 52px;
+    border: 2px solid transparent;
+    left: -704px;
+}
+.nav-logo .logo .logo1:hover{
+    border: 2px solid white;
+}
+.nav-address{
+    display: inline-block;
+    position: relative;
+    top: 24px;
+}
+.deliver{
+    position: relative;
+    bottom: 103px;
+    left: 137px;
+    color: #CCCCCC;
+        font-size: 12px;
+        display: inline-flex;
+        
+
+}
+.logo2{
+    position: relative;
+    top: -89px;
+    left: 63px;
+    color: white;
+}
+
+.pak{
+    position: relative;
+    top: -105px;
+    left: 134px;
+    color: white;
+    font-size: 14px;
+}
+.nav-address :hover{
+    border: 2px solid white;
+    cursor: pointer;
+    box-sizing: border-box;
+}
+.nav-search{
+    display: flex;
+    position: relative;
+    top: -90px;
+    left: 202px;
+    width: 620px;
+    height: 40px;
+    border-radius: 4px;
+    justify-content: space-evenly;
+}
+.search-icon{
+    color: grey;
+    width: 45px;
+    position: relative;
+    top: -9px;
+    left: 1px;
+    font-size: 1rem;
+    background-color: #febd68;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    
+}
+#all{
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    background-color:#FFFF;
+    width: 50px;
+    text-align: center;
+    border: none;
+    position: relative;
+    top: -9px;
+}
+.search-input{
+    width: 100%;
+    font-size: 1.25rem;
+    border: none;
+    top: -9px;
+    position: relative;
+    
+}
+.hello{
+    position: relative;
+    left: 902px;
+    bottom: 135px;
+    color: white;
+    font-size: 14px;
+    color: #FFFFFF;
+
+}
+.accounts{
+    position: relative;
+    left: 905px;
+    top: -135px;
+    color: #FFFFFF;
+    font-size: 15px;
+    font-weight: bolder;
+}
+.nav-return{
+    position: relative;
+    color: white;
+    bottom: 169px;
+    left: 1095px;
+    height: 40pxdh;
+}
+.nav-return:hover{
+    border: 2px solid white;
+    cursor: pointer;
+    box-sizing: border-box;
+    width: 8vh;
+}
+.signin:hover{
+    border: 2px solid white;
+    cursor: pointer;
+    box-sizing: border-box;
+    
+
+}
+.nav-search :hover{
+    border: 2px solid orange;
+    box-sizing: border-box;
+}
+#nav-cart{
+    font-size: 30px;
+}
+.cart{
+    left: 156px;
+    position: relative;
+    bottom: 34px;
+    width: 80px;
+}
+.cart:hover{
+    border: 2px solid white;
+}
+.panel{
+    height: 40px;
+    position: absolute;
+    top: 60px;
+    left: 0px;
+    background-color: #222f3d;
+    width: 1680px; 
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.panel-options{
+    display: inline-flex;
+    color: white;
+    width: 70%;
+    
+}
+.panel-all i{
+    color: white;
+    
+}
+.pane-deals{
+    position: absolute;
+    right:  45px;
+    font-size: 0.9rem;
+    font-weight: 700;
+}
+.panel-options p{
+    margin-right: 50px;
+}
+.panel-all{
+    position: relative;
+    left: -115px;
+}
+.hero{
+    background-image:url("img/heroimage.jpg");
+    height: 400px;
+    background-size: cover;
+    position: relative;
+    bottom: 149px;
+}
+.box{
+    /* border: 2px solid black; */
+    height: 100px;
+    width: 23%;
+    height: 400px;
+    background-color: white;
+    padding: 20px 0px 15px;
+    
+}
+.shop-section{
+    position: relative;
+    bottom: 149px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: #e2e7e6;
+}
+.box-image1{
+    background-image: url(img/box1image.jpg);
+    height: 300px;
+
+}
+.box-content{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.box-content p{
+    color: #007185;
+    margin-top: 10px;
+}
+.box-content h2{
+    margin-bottom: 10px;
+}
+.box-image2{
+    background-image: url(img/box2image.jpg);
+    height: 300px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-left: 90px;
+
+
+}
+.box-image3{
+    background-image:url(img/box3image.jpg) ;
+    height: 300px;
+}
+.box-image4{
+    background-image: url(img/box4image.jpg);
+    height: 300px;
+}
+.box-image5{
+    background-image: url(img/box5image.jpg);
+    height: 300px;
+    /* background-repeat: no-repeat; */
+    /* background-size: cover; */
+
+}
+.box-image6{
+    background-image: url(img/box6image.jpg);
+    height: 300px;
+}
+.box-image7{
+    background-image: url(img/box7image.jpg);
+    height: 300px;
+}
+.box-image8{
+    background-image: url(img/box8image.jpg);
+    height: 300px;
+}
+.shop-section2{
+    /* display: flex;
+    background-color: #CCCCCC;
+    margin-top: -143px;
+     */
+     position: relative;
+     bottom: 102px;
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: space-evenly;
+     background-color: #e2e7e6;
+}
+.foot-panel1{
+    background-color: #37475a;
+    color: white;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.85rem;
+    position: relative;
+    bottom: 74px;
+
+}
+.foot-panel2{
+    background-color: #222f3d;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 100px;
+    position: relative;
+    bottom: 74px;
+}
+.foot-panel2 a{
+    color: white;
+    display: block;
+    font-size: 0.85rem;
+    text-decoration: none;
+    margin-top: 10px;
+    color: #dddddd;
+    
+}
+ul{
+    margin-top: 20px;
+}
+.foot-panel3{
+    background-color: #222f3d;
+    color: white;
+    border-top: 0.5px solid white;
+    padding: 56px;
+    position: relative;
+    top: -174px;
+    
+}
+.logo{
+    background-image: url(img/amazon\ logo.png);
+    height: 31px;
+    width: 100px;
+    background-size: cover;
+    position: relative;
+    left: 704px;
+
+    
+}
+.foot-panel4{
+    background-color:  #0F1111;
+    color: white;
+    height: 80px;
+    position: relative;
+    bottom: 173px;
+     /* display: flex;
+    justify-content: center;
+    align-items: center; */
+}
+.pages{
+    font-size: 0.7rem;
+    text-align: center;
+    padding-top: 25px;
+
+}
+.copyright{
+    font-size: 0.7rem;
+    text-align: center;
+}
+.pages a{
+    color: white;
+    padding-top: 5px;
+}
