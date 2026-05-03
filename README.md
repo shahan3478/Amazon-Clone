@@ -6,30 +6,30 @@ This project is a high-fidelity frontend recreation of the Amazon homepage, desi
 
 ## 🚀 Features
 
-*   **Pixel-Perfect Layout**: Accurately mirrors the Amazon interface, including the navigation bar, search functionality (UI only), and category sections[cite: 5].
-*   **Hero Section**: Features a large-scale hero image background that anchors the homepage's visual identity[cite: 5].
-*   **Product Grid**: Implements a modular "box" system for product categories, utilizing multiple curated assets to simulate a diverse catalog[cite: 5].
-*   **Responsive Styling**: Built with a focus on cross-device compatibility, ensuring the layout remains structured across various screen sizes[cite: 5].
+*   **Pixel-Perfect Layout**: Accurately mirrors the Amazon interface, including the navigation bar, search functionality (UI only), and category sections.
+*   **Hero Section**: Features a large-scale hero image background that anchors the homepage's visual identity.
+*   **Product Grid**: Implements a modular "box" system for product categories, utilizing multiple curated assets to simulate a diverse catalog.
+*   **Responsive Styling**: Built with a focus on cross-device compatibility, ensuring the layout remains structured across various screen sizes.
 
 ---
 
 ## 🛠️ Project Structure
 
-The project files are contained within the **Amazon-Clone-main.zip** directory and organized as follows[cite: 5]:
+The project files are contained within the **Amazon-Clone-main.zip** directory and organized as follows:
 
-*   **`index.html`**: The semantic foundation of the clone, defining the header, footer, and main content blocks[cite: 5].
-*   **`style.css`**: The primary stylesheet, managing the complex layout, color palettes, and typography to match the official branding[cite: 5].
-*   **`img/`**: A comprehensive asset folder containing[cite: 5]:
-    *   `amazon logo.png`: Official branding assets[cite: 5].
-    *   `heroimage.jpg`: The primary background asset for the top-of-fold content[cite: 5].
-    *   `box1image.jpg` through `box8image.jpg`: Product-specific images used for the categorized display grid[cite: 5].
+*   **`index.html`**: The semantic foundation of the clone, defining the header, footer, and main content blocks.
+*   **`style.css`**: The primary stylesheet, managing the complex layout, color palettes, and typography to match the official branding.
+*   **`img/`**: A comprehensive asset folder containing:
+    *   `amazon logo.png`: Official branding assets.
+    *   `heroimage.jpg`: The primary background asset for the top-of-fold content.
+    *   `box1image.jpg` through `box8image.jpg`: Product-specific images used for the categorized display grid.
 
 ---
 
 ## 💻 Tech Stack
 
-*   **HTML5**: Semantic markup for structural integrity[cite: 5].
-*   **CSS3**: Custom layouts, Flexbox/Grid systems, and visual styling[cite: 5].
+*   **HTML5**: Semantic markup for structural integrity.
+*   **CSS3**: Custom layouts, Flexbox/Grid systems, and visual styling.
 
 ---
 
@@ -46,7 +46,7 @@ To view this project locally:
     cd Amazon-Clone-main
     ```
 3.  **Launch the site**:
-    Open the `index.html` file in any modern web browser to explore the interface[cite: 5].
+    Open the `index.html` file in any modern web browser to explore the interface.
 
 ---
 
